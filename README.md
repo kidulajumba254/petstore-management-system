@@ -1,30 +1,64 @@
-# Petstore management system
+# Petstore Management System
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+A modern web application for managing a pet store's inventory, sales, appointments, and customers. Built with Next.js, React, and a beautiful UI component library.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/kidulajesse-gmailcoms-projects/v0-petstore-management-system)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/qARkadLTBub)
+## Features
 
-## Overview
+- **Dashboard Overview:** Visual summary of revenue, inventory, customers, and appointments.
+- **Pet Inventory:** Manage pets available in the store.
+- **Product Management:** Track and manage pet products.
+- **Sales Tracking:** View recent sales and monthly sales overview.
+- **Appointment Scheduling:** Manage upcoming and pending appointments.
+- **Customer Management:** Track active customers and their pets.
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## Getting Started
 
-## Deployment
+### Prerequisites
 
-Your project is live at:
+- [Node.js](https://nodejs.org/) (v16 or higher)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
 
-**[https://vercel.com/kidulajesse-gmailcoms-projects/v0-petstore-management-system](https://vercel.com/kidulajesse-gmailcoms-projects/v0-petstore-management-system)**
+### Installation
 
-## Build your app
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/petstore-management-system.git
+   cd petstore-management-system
+   ```
 
-Continue building your app on:
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-**[https://v0.dev/chat/projects/qARkadLTBub](https://v0.dev/chat/projects/qARkadLTBub)**
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
 
-## How It Works
+4. **Open your browser:**
+   Visit [http://localhost:3000](http://localhost:3000) to view the app.
 
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+## Project Structure
+
+- `app/` - Main application pages and components
+- `components/` - Reusable UI components
+- `public/` - Static assets (images, etc.)
+- `styles/` - Global styles
+
+## Customization
+
+- Update pet and product images in the `public/` folder.
+- Modify dashboard cards and data in `app/page.tsx`.
+
+## Contributing
+
+Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+[MIT](LICENSE)
