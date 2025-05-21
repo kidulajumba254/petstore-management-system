@@ -28,7 +28,7 @@ A modern web application for managing a pet store's inventory, sales, appointmen
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/petstore-management-system.git
+   git clone https://github.com/kidulajumba254/petstore-management-system.git
    cd petstore-management-system
    ```
 
