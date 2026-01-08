@@ -6,6 +6,7 @@ A modern web application for managing a pet store's inventory, sales, appointmen
 
  **Dashboard Overview:** Visual summary of revenue, inventory, customers, and appointments.
  ![image](https://github.com/user-attachments/assets/5993a8bb-7008-463a-8291-d32111799bb0)
+
  **Pet Inventory:** Manage pets available in the store.
   ![image](https://github.com/user-attachments/assets/bc784116-0739-447d-8463-15b7839d33c5)
   ![image](https://github.com/user-attachments/assets/0edc977e-28ca-415d-a045-a44e4abc7933)
